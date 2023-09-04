@@ -9,7 +9,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "yarn build && next export",
+    "export": "next export",
     "vercel-build": "next build && next export -o dist"
   },
   "dependencies": {
