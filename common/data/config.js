@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Deadline',
+  title: 'Bidbyt',
   logo: '',
-  url: 'https://redq.inc',
-  favicon: '../common/static/favicon/favicon.png',
+  url: 'https://www.bidbyt.com/',
+  favicon: '../common/static/favicon/bydbyt.png',
   cover: '',
-  legalName: 'RedQ Inc',
-  description: 'React Gatsby Coming soon template',
+  legalName: 'Bydbyt India Private Limited.',
+  description: 'Authentic food from top chefs, restaurants and home cooks. Our aim is to bring to you 672681452 recorded number of dishes in the World. Your food cravings catered! Be it reservations for the best pop up restaurant nearby, or a home food delivery - we have you covered.',
   socialLinks: {
     twitter: '',
     github: '',
@@ -30,6 +30,6 @@ module.exports = {
     email: '',
     phone: '',
   },
-  foundingDate: '2019',
+  foundingDate: '2018',
   googleVerification: 'xxx',
 };

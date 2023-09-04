@@ -11,7 +11,7 @@ const MainWrapper = styled.section`
     margin-top: auto;
   }
   .mainContainer {
-    padding-bottom: 120px;
+    // padding-bottom: 120px;
     @media (max-width: 767px) {
       padding-bottom: 20px;
     }
@@ -185,7 +185,7 @@ export const MainContentSection = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 100px 0 70px 0;
+  // padding: 100px 0 70px 0;
   @media (max-width: 1099px) {
     height: 100%;
     min-height: calc(100vh - 360px);
@@ -200,7 +200,7 @@ export const MainContentSection = styled.div`
   }
   h2 {
     font-size: 48px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', serif;
     color: rgb(17, 35, 53);
     line-height: 1.3;
     text-align: center;
@@ -226,7 +226,7 @@ export const MainContentSection = styled.div`
   }
   p {
     font-size: 17px;
-    font-family: 'Roboto';
+    font-family: 'Open Sans', serif;
     color: rgba(17, 35, 53, 0.6);
     line-height: 1.941;
     text-align: center;
@@ -386,7 +386,7 @@ export const BottomIllustration = styled.section`
     object-fit: cover;
     width: 100%;
     height: 100%;
-    margin-bottom: -10px;
+    // margin-bottom: -10px;
   }
 `;
 export default MainWrapper;

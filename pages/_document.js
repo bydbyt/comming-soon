@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-
 export default class CustomDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -34,7 +33,7 @@ export default class CustomDocument extends Document {
           <link
             rel="shortcut icon"
             type="image/x-icon"
-            href="https://s3.amazonaws.com/redqteam.com/deadline/favicon/favicon.png"
+            href="../common/static/favicon/favicon.ico"
           />
           {/* load google fonts  */}
           <link
